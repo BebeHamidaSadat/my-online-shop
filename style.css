@@ -1,0 +1,107 @@
+/* 1. Page Style  */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* 2. Navbar  */
+.navbar {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee9f8;
+}
+.navbar-brand {
+    color: #6d4aff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* 3. Product cards  */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #eee9f8;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+.card-body {
+    padding: 16px;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #292333;
+    margin-bottom: 8px;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #6d4aff;
+    margin-bottom: 14px;
+}
+
+/* 4. Product Images  */
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+.add-to-cart {
+    background-color: #6D4AFF;
+    color: white;
+    border: 1px solid #6D4AFF;
+    border-radius: 6px;
+    padding: 9px 18px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.add-to-cart:hover {
+    background-color: #3206e3;
+    color: white;
+}
+
+/* Footer  */
+.shop-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #eee9f8;
+    padding: 45px 0 15px;
+    color: #6b6575;
+    font-size: 14px;
+}
+.footer-brand {
+    color: #6b4aff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.shop-footer h6 {
+    color: #292333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links a, 
+.footer-email {
+    color: #6b6575;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.footer-links
+a:hover, .footer-email:hover{
+    color: #6d4aff;
+}
+.footer-bottom {
+    border-top: 1px solid #eee9f8;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+.footer-bottom p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
